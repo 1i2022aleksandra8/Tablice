@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablice</title>
+</head>
+<body>
+    <header>
+        Tablice
+    </header>
+<script>
+    const numbers = [];
+    numbers[0] = 23
+    numbers[1] = 11
+    numbers[2] = 5
+
+    numbers[0] = 'sdfgnjs'
+
+    document.write(numbers);
+    document.write('<p>Długość tablicy: ' + numbers.length + '</p>');
+    document.write(`<p>Długość tablicy: ${numbers.length} </p>`);
+
+    document.write(`<p>Dodaję element na końcu tablicy: ${numbers[numbers.length]=20} </p>`);
+    document.write(`<p>Moja tablica: ${numbers} </p>`);
+
+    document.write(`<p>Usuwam ostatni element tablicy czyli: ${numbers.pop()} </p>`);
+    document.write(`<p>Usuwam pierwszy element tablicy czyli: ${numbers.shift()} </p>`);
+    document.write(`<p>Długość tablicy: ${numbers.length} </p>`);
+    document.write(`<p>Dodaję element na początku tablicy: ${numbers.unshift(5)} </p>`);
+    document.write(`<p>Dodaję element na końcu tablicy: ${numbers.push('jdfgb')} </p>`);
+    document.write(`<p>Długość tablicy: ${numbers.length} </p>`);
+    document.write(`<p>Moja tablica: ${numbers} </p>`);
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
